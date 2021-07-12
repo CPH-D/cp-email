@@ -14,7 +14,7 @@
     <style>
         /* desktop */
         @media only screen and (min-width: 960px){
-            .container{
+            .box-container{
                 width: 960px;
             }
             .header-left{
@@ -53,7 +53,7 @@
         }
         /* mobile */
         @media only screen and (max-width: 600px){
-            .container{
+            .box-container{
                 width: 100% !important;
             }
             .header-left{
@@ -71,7 +71,7 @@
             .lets-you-row .right-column{
                 width: 100%;
             }
-            .advance-table .image-head{
+            .advance-table .img-head{
                 width: 100%;
             }
             .advance-table .left-column{
@@ -85,6 +85,9 @@
             }
             .advance-table .right-column .right-store{
                 text-align: center;
+            }
+            .one-solution-table .ons-img{
+                width: 100%;
             }
             .join-together-table .left-column{
                 width: 100%;
@@ -116,6 +119,9 @@
             .detail-table .row-three-table .right-column{
                 width: 100%;
             }
+            .interest-table{
+                width: 100%;
+            }
         }
     </style>
 
@@ -127,7 +133,7 @@
         <tr>
             <td>
                 <!-- start of container -->
-                <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
+                <table class="box-container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
                     <!-- start of header row -->
                     <tr>
                         <td>
@@ -269,7 +275,7 @@
                         <td style="background: white;">
                             <table class="advance-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0", style="padding: 15px 20px 0px 10px;">
                                 <tr>
-                                    <td style="padding: 25px 0 0;" align="center">
+                                    <td style="padding: 25px 0 0;" align="center" class="img-container">
                                         <img src="img/image_head.jpg" class="image-head">
                                     </td>
                                 </tr>
@@ -318,8 +324,8 @@
                         <td>
                             <table class="one-solution-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0", style="padding: 30px 0px; background: #141414;">
                                 <tr>
-                                    <td align="center">
-                                        <img src="img/one_app.jpg">
+                                    <td align="center" >
+                                        <img src="img/one_app.jpg" class="ons-img">
                                     </td>
                                 </tr>
                             </table>
@@ -410,7 +416,7 @@
                     <!-- start of detail row -->
                     <tr>
                         <td>
-                            <table class="detail-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0", style="padding: 50px 0; background: #fafafa">
+                            <table class="detail-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0", style="padding: 50px 10px; background: #fafafa">
                                 <!-- start of row-one-table row -->
                                 <tr>
                                     <td>
